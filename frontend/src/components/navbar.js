@@ -25,6 +25,7 @@ export default function Navbar() {
       <Nav className="me-auto">
         <Nav.Link href="/">Start</Nav.Link>
         <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="/mbtaMyPage">MyPage</Nav.Link>
         <Nav.Link href="/privateUserProfile">Profile</Nav.Link>
       </Nav>
     </Container>
