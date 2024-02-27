@@ -1,0 +1,21 @@
+###
+GET http://localhost:8081/user/getAll
+Content-Type: application/json
+
+###
+GET  http://localhost:8081/user/getUserById
+Content-Type: application/json 
+
+{
+    "userId" : "635ab8dfc407faf9f73deaf1"
+}
+
+###
+POST http://localhost:8081/user/signup
+Content-Type: application/json 
+
+{
+    "username" : "allanb",
+    "email" : "allanb@gmail.com",
+    "password" : "12345678"
+}
