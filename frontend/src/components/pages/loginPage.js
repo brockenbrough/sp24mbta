@@ -82,7 +82,7 @@ const Login = () => {
             <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
               <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                  <Form.Label style={labelStyling}>Username</Form.Label>
+                  <Form.Label style={labelStyling}>Your Username</Form.Label>
                   <Form.Control
                     type="username"
                     name="username"

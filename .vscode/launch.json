@@ -8,7 +8,7 @@
         {
             "cwd": "${workspaceFolder}/backend/server",
             "command": "npm start",
-            "name": "backend: npm start",
+            "name": "backend debugging",
             "request": "launch",
             "type": "node-terminal"
         }
